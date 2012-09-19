@@ -32,7 +32,7 @@ A `lastKey` method is provided for querying Kibo about which key was involved in
 
 Kibo understands these keys and is case-insensitive about their spelling:
 
-- modifiers `shift`, `ctrl`, `alt`
+- modifiers `shift`, `ctrl`, `alt`, `meta`
 
 - letters `a` to `z`
 
