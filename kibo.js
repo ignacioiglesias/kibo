@@ -6,6 +6,7 @@ var Kibo = function(element) {
 Kibo.KEY_NAMES_BY_CODE = {
   8: 'backspace', 9: 'tab', 13: 'enter',
   16: 'shift', 17: 'ctrl', 18: 'alt',
+  224: 'meta', 92: 'meta', 93: 'meta', 219: 'meta', 220: 'meta',
   20: 'caps_lock',
   27: 'esc',
   32: 'space',
@@ -26,7 +27,7 @@ for (var key in Kibo.KEY_NAMES_BY_CODE)
     Kibo.KEY_CODES_BY_NAME[Kibo.KEY_NAMES_BY_CODE[key]] = +key;
 })();
 
-Kibo.MODIFIERS = ['shift', 'ctrl', 'alt'];
+Kibo.MODIFIERS = ['shift', 'ctrl', 'alt', 'meta'];
 
 Kibo.WILDCARD_TYPES = ['arrow', 'number', 'letter', 'f'];
 
